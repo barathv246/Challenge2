@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(127, 132, 132);
+}
+
+.container {
+    margin: auto;
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.amount,
+.yearly {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.music {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan {
+    margin-top: 10px;
+}
+
+.music a {
+    margin-top: 10px;
+}
+
+.music-left {
+    display: flex;
+    margin-left: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 0 20px;
+}
+
+.btn1 {
+    background-color: blue;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    background-color: rgb(241, 235, 235);
+    padding: 10px;
+    color: grey;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        max-width: 350px;
+        font-size: 15px;
+    }
+
+    .image img {
+        height: 100%;
+        width: 100%;
+    }
+}
